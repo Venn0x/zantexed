@@ -32,8 +32,9 @@ std::cin>>primaN;
 //.
 //2
 short int n;
+std::cout<<"Introdu numerele de coloane si linii: "<<std::endl;
 std::cin>>n;
-                         
+std::cout<<"Introdu elementele matricei.";                        
 int matrice2[n][n];
 for(int i = 0; i<n; i++)
 {
