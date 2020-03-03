@@ -6,8 +6,7 @@ int main() {
     std::ofstream output("eratostene.out");
 	int n = 0, cnt = 0;
 	input>>n;
-    const int nume = n;
-	int v[nume] = { 0 };
+	int v[1000] = { 0 };
 	v[0] = 1;
 	v[1] = 1;
 	for (int a = 2; a <= n; a++) {
